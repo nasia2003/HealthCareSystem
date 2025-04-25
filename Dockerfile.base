@@ -1,0 +1,11 @@
+# Sử dụng image Python chính thức
+FROM python:3.12-slim
+
+# Tạo thư mục làm việc trong container
+WORKDIR /app
+
+# Copy file requirements.txt vào container
+COPY requirements.txt /app/
+
+# Cài đặt tất cả các thư viện từ requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt

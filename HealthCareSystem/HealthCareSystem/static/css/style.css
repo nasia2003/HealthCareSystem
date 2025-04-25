@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px 40px; /* Làm các button to hơn */
+    font-size: 18px; /* Tăng kích thước chữ */
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; /* Bo góc cho nút */
+    transition: background-color 0.3s ease;
+    width: 200px; /* Đặt chiều rộng cho button */
+}
+
+#loginBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#loginBtn:hover {
+    background-color: #45a049;
+}
+
+#registerBtn {
+    background-color: #008CBA;
+    color: white;
+}
+
+#registerBtn:hover {
+    background-color: #007bb5;
+}
